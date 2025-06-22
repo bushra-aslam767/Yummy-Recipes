@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Yummy Recipes</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #fff8f0;
+      color: #333;
+    }
+
+    header {
+      background: #ff7043;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    .recipes {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 30px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .card-body {
+      padding: 15px;
+    }
+
+    .card-body h3 {
+      margin: 0 0 10px;
+      color: #ff7043;
+    }
+
+    .card-body p {
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+
+    footer {
+      background: #ff7043;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🍲 Yummy Recipes</h1>
+  <p>Delicious and easy-to-make dishes</p>
+</header>
+
+<section class="recipes">
+  <div class="card">
+    <img src="Capture.PNG" alt="Biryani">
+    <div class="card-body">
+      <h3>Chicken Biryani</h3>
+      <p>Spicy and flavorful rice dish made with marinated chicken, basmati rice, and aromatic spices.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src= "pasta.PNG" alt="pasta">
+    <div class="card-body">
+      <h3>Creamy Pasta</h3>
+      <p>Pasta tossed in rich white sauce with garlic, cream, cheese, and your choice of veggies or chicken.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src= "paratha.PNG" alt="paratha">
+    <div class="card-body">
+      <h3>Stuffed Paratha</h3>
+      <p>Soft flatbread filled with spiced mashed potatoes or minced meat, perfect for breakfast or dinner.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="seekh kabab.PNG" alt="kabab" >
+    <div class="card-body">
+      <h3>Seekh Kebabs</h3>
+      <p>Juicy minced meat skewers grilled to perfection with a blend of spices. Great with naan and chutney!</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="qulab.PNG"alt="Gulab Jamun">
+    <div class="card-body">
+      <h3>Gulab Jamun</h3>
+      <p>Soft milk-solid dumplings soaked in rose-scented sugar syrup. A royal dessert for sweet lovers!</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="daal.PNG" alt="Dal Chawal">
+    <div class="card-body">
+      <h3>Dal Chawal</h3>
+      <p>Simple and comforting combo of yellow lentils and rice, served with spicy pickle or salad.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="fish.PNG"alt="Fried Fish">
+    <div class="card-body">
+      <h3>Masala Fried Fish</h3>
+      <p>Deep-fried fish marinated in Pakistani spices — crispy outside, juicy inside, served with chutney!</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="keema.PNG"alt= " qeema Matar">
+    <div class="card-body">
+      <h3>Keema Matar</h3>
+      <p>Minced meat cooked with green peas and spices — a true homestyle Pakistani favorite.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="chicken.PNG" alt="Chicken Karahi">
+    <div class="card-body">
+      <h3>Chicken Karahi</h3>
+      <p>Bold wok-cooked chicken dish with tomatoes, green chilies, and garam masala — a restaurant classic.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="nihari.PNG" alt="Chicken Nihari">
+    <div class="card-body">
+      <h3>Chicken Nihari</h3
+      <p> A slow-cooked chicken curry packed with bold desi spices, perfect with naan or kulcha.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="haleem.PNG" alt="Chicken Haleem">
+    <div class="card-body">
+      <h3>Chicken Haleem</h3>
+      <p>Blend of lentils, wheat, and shredded chicken slow-cooked into a thick porridge, garnished with fried onions and lemon.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="beef paya.PNG" alt="Paya">
+    <div class="card-body">
+      <h3>Beef Paya</h3>
+      <p>Traditional beef trotters in spicy curry — served hot with naan, especially enjoyed in winter breakfasts.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  &copy; 2025 Yummy Recipes. Made with ❤️ by Bushra.
+</footer>
+
+</body>
+</html>
+
+
